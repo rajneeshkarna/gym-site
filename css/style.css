@@ -46,7 +46,7 @@ body{
   right: 30px;
 }
 
-button{
+.call-btn, .email-btn{
   background-color: black;
   color: white;
   font-size: 18px;
@@ -58,4 +58,47 @@ button{
 
 .email-btn{
   margin-left: 18px;
+}
+
+.form-container{
+  border: 3px solid gray;
+  width: 400px;
+  height: 400px;
+  margin-top: 120px;
+  margin-left: 120px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.form-container p{
+  font-size: 24px;
+}
+
+.form-container input{
+  display: block;
+  width: 90%;
+  height: 34px;
+  margin-bottom: 12px;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Baloo Bhai';
+  margin: 12px auto;
+
+}
+
+.submit-btn{
+  display: block;
+  width: 92%;
+  margin: 12px auto;
+  height: 39px;
+  font-family: 'Baloo Bhai';
+  font-size: 18px;
+  border-radius: 9px;
+  background-color: white;
+
+}
+
+.submit-btn:hover{
+  cursor: pointer;
 }
