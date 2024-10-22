@@ -2,4 +2,60 @@ body{
   margin: 0;
   padding: 0;
   background: url(../images/bg.jpg);
+  color: white;
+  font-size: 18px;
+  font-family: 'Baloo Bhai', Georgia, serif;
+}
+
+.left{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  text-align: center;
+}
+
+.left img{
+  width: 75px;
+  filter: invert(100%);
+}
+
+.mid{
+  width: 510px;
+  margin: 20px auto;
+}
+
+.mid ul li{
+  display: inline;
+  margin-left: 18px;
+}
+
+.mid ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.mid ul li a:hover, .mid ul li .active{
+  color: gray;
+  text-decoration: underline;
+}
+
+.right{
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+button{
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 8px 19px;
+  border: 2px solid gray;
+  border-radius: 3px 6px 3px 6px;
+  font-family: 'Baloo Bhai';
+}
+
+.email-btn{
+  margin-left: 18px;
 }
